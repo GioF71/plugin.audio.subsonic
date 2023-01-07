@@ -598,12 +598,14 @@ def search(params):
     # Get items
     items = connection.search2(query=d)
     # Iterate through items
-    for item in items.get('searchResult2').get('song'):
-        entry = get_entry_track( item, params)
-        listing.append(entry)
+    songs = items.get('searchResult2').get('song')
+    if songs:
+        for item in songs:
+            entry = get_entry_track( item, params)
+            listing.append(entry)
 
-    if len(listing) == 1:
-        plugin.log('One single Media Folder found; do return listing from browse_indexes()...')
+    if len(listing) == 0:
+        plugin.log('No songs found; do return listing from browse_indexes()...')
         return browse_indexes(params)
     else:
         add_directory_items(create_listing(listing))
@@ -640,7 +642,11 @@ def search_album(params):
     # I believe it is ok to return an empty listing if
     # the search gave no result
     # maybe inform the user?
-    add_directory_items(create_listing(listing))
+    if len(listing) == 0:
+        plugin.log('No albums found; do return listing from browse_indexes()...')
+        return browse_indexes(params)
+    else:
+        add_directory_items(create_listing(listing))
 
 
 @plugin.action()
