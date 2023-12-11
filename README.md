@@ -5,6 +5,7 @@
 This is not my original work. I created the repo by forking  [this repo](https://github.com/warwickh/plugin.audio.subsonic) and I have added the following features:
 
 - Search Album
+- Show favorite Albums in Albums menu
 
 ## Description
 

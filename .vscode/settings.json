@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./lib/simpleplugin",
+        "./lib/libsonic",
+        "./lib"
+    ]
+}
