@@ -177,7 +177,7 @@ msgid "Merge album folders"
 msgstr ""
 
 msgctxt "#30044"
-msgid "Scrobble to Last.FM"
+msgid "Scrobble to Subsonic Server"
 msgstr ""
 
 msgctxt "#30045"

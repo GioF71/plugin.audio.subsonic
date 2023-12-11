@@ -25,7 +25,7 @@ Leia compatible version available in alternate branch
 - Download songs
 - Star songs
 - Navidrome compatibility added (please report any issues)
-- Scrobble to Last.FM
+- Scrobble to your subsonic server (not necessarily to LAST.fm, this depends on server/player settings)
 - Search (it was there before I forked the repo)
 - Search Album (additional feature)
 
