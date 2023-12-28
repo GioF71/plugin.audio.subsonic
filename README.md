@@ -2,21 +2,18 @@
 
 ## Disclaimer
 
-This is not my original work. I created the repo by forking  [this repo](https://github.com/warwickh/plugin.audio.subsonic) and I have added the following features:
+This is not my original work. I created the repo by forking [this repo](https://github.com/warwickh/plugin.audio.subsonic) and I have added the following features:
 
 - Search Album
 - Show favorite Albums in Albums menu
+- Corrected strings which refer to last.fm scrobbling to something that suggest that scrobbling happens against the subsonic server
 
 ## Description
 
-Kodi plugin to stream, star and download music from Subsonic/Airsonic/Navidrome (requires Subsonic API compatibility)
-
-For feature requests / issues: [here](https://github.com/giof71/plugin.audio.subsonic/issues)
-
-Contributions are welcome: [here](https://github.com/giof71/plugin.audio.subsonic)
-
-Master branch updated to support Kodi 19 Matrix
-
+Kodi plugin to stream, star and download music from Subsonic/Airsonic/Navidrome (requires Subsonic API compatibility).  
+For feature requests / issues: [here](https://github.com/giof71/plugin.audio.subsonic/issues).  
+Contributions are welcome: [here](https://github.com/giof71/plugin.audio.subsonic).  
+Master branch updated to support Kodi 19 Matrix  
 Leia compatible version available in alternate branch
 
 ## Features
@@ -48,6 +45,7 @@ Note: You will need to enter your server settings into the plugin configuration 
 
 - Improve the caching system
 - Search filter GUI for tracks and albums
+- Bump py-sonic to version 1.0.0
 
 ## License
 
